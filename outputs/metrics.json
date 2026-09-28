@@ -1,0 +1,37 @@
+{
+  "records": 2400,
+  "features": [
+    "Study_Hours_Per_Day",
+    "Attendance_Percentage",
+    "Assignment_Completion_Percentage",
+    "Online_Learning_Hours",
+    "Class_Interactions",
+    "Previous_Semester_Marks",
+    "Sleep_Hours",
+    "Extracurricular_Hours",
+    "Test_Preparation_Hours",
+    "Average_Test_Score"
+  ],
+  "selected_k": 2,
+  "silhouette": 0.3016942921920219,
+  "davies_bouldin": 1.2334218305956723,
+  "calinski_harabasz": 1484.1640920381346,
+  "inertia": 14824.770435475148,
+  "labels": {
+    "1": "Lower Engagement Learners",
+    "0": "Highly Engaged Learners"
+  },
+  "pca_explained_variance": [
+    0.5545350984208963,
+    0.10027089801416414,
+    0.09578441041706667
+  ],
+  "dataset_sha256": "bc408ef54f2b5c63b58f100d6d9e982d9ca2b480abe576b66d779cfaadbe7663",
+  "runtime_versions": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "joblib": "1.6.0"
+  },
+  "selection_rule": "Maximum full-dataset silhouette over K=2..10; elbow reviewed visually."
+}

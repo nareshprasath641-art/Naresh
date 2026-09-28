@@ -1,0 +1,2 @@
+# Plotly exports embed third-party JavaScript with upstream whitespace.
+outputs/charts/*.html -whitespace linguist-generated=true

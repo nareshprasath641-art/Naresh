@@ -1,0 +1,49 @@
+{
+  "shape": [
+    2400,
+    12
+  ],
+  "duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "missing_values": {
+    "Student_ID": 0,
+    "Age": 0,
+    "Study_Hours_Per_Day": 37,
+    "Attendance_Percentage": 34,
+    "Assignment_Completion_Percentage": 32,
+    "Online_Learning_Hours": 35,
+    "Class_Interactions": 33,
+    "Previous_Semester_Marks": 34,
+    "Sleep_Hours": 42,
+    "Extracurricular_Hours": 31,
+    "Test_Preparation_Hours": 36,
+    "Average_Test_Score": 41
+  },
+  "data_types": {
+    "Student_ID": "str",
+    "Age": "int64",
+    "Study_Hours_Per_Day": "float64",
+    "Attendance_Percentage": "float64",
+    "Assignment_Completion_Percentage": "float64",
+    "Online_Learning_Hours": "float64",
+    "Class_Interactions": "float64",
+    "Previous_Semester_Marks": "float64",
+    "Sleep_Hours": "float64",
+    "Extracurricular_Hours": "float64",
+    "Test_Preparation_Hours": "float64",
+    "Average_Test_Score": "float64"
+  },
+  "iqr_outlier_counts": {
+    "Age": 0,
+    "Study_Hours_Per_Day": 2,
+    "Attendance_Percentage": 0,
+    "Assignment_Completion_Percentage": 0,
+    "Online_Learning_Hours": 6,
+    "Class_Interactions": 2,
+    "Previous_Semester_Marks": 1,
+    "Sleep_Hours": 15,
+    "Extracurricular_Hours": 71,
+    "Test_Preparation_Hours": 5,
+    "Average_Test_Score": 2
+  }
+}
